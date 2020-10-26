@@ -41,18 +41,7 @@ namespace Day._06.Addressbook
             this.email = email;
         }
 
-        public Contact(string firstName, string lastName, string address, string city, string state, string zipCode, string phoneNumber, string email)
-        {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.address = address;
-            this.city = city;
-            this.state = state;
-            this.zipCode = zipCode;
-            this.phoneNumber = phoneNumber;
-            this.email = email;
-        }
-
+       
         public override string ToString() //this method returns the string itself
         {
             return ("FirstName : " + firstName + " LastName : " + lastName + " Address : " + address + " City : " + city + "State : " + state +
